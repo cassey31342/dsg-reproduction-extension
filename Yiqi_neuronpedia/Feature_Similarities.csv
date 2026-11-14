@@ -1,0 +1,61 @@
+﻿Query,Rank,Feature ID,Description,Cosine similarity
+Biology,1,968,"terms related to biological or medical processes and conditions, especially those involving cellular or molecular biology",0.5563386626383685
+Biology,2,11,scientific terms and concepts related to biology,0.5530104173369189
+Biology,3,12382,terms related to biological processes and structures in living organisms,0.5501905471550728
+Biology,4,10546,biological and genetic terms or sequences,0.5342676292791886
+Biology,5,9722, concepts related to biological processes and systems,0.5268570846869457
+Biology,6,2543,"terms related to scientific and medical fields, particularly those ending in ""ology.""",0.524416857141944
+Biology,7,15969,terms related to biotechnology and bio-related fields,0.520042680695317
+Biology,8,11752,technical terms and specific classifications related to biology and medical contexts,0.5192345515283157
+Biology,9,16307,"terms related to scientific disciplines, particularly within biology and psychology",0.5182981397008324
+Biology,10,1266,technical terms and concepts related to biological or scientific processes,0.5155687083726064
+Biology,11,373, scientific terminology related to biological processes and cellular functions,0.5107785763720977
+Biology,12,343,terms related to biological processes and laboratory techniques,0.510369773241036
+Biology,13,8008, mentions of the letter 'B' associated with genetic or biological terms,0.5099037282772253
+Biology,14,7652,terms related to biological processes and medical terminology,0.5065727583133744
+Biology,15,11024,specific scientific terms related to cellular biology and biochemistry,0.5055815191538688
+Biology,16,13527,"terms related to biological or medical research, particularly focusing on specific conditions and associated microorganisms",0.5044468605100239
+Biology,17,12117," concepts related to biological or cellular processes and conditions, particularly focusing on requirements, limitations, and energy dynamics",0.5016115845208687
+Biology,18,140,technical terms and concepts related to biology and bioengineering,0.5009067659506891
+Biology,19,8899,terms related to biological processes and medical concepts,0.499965081039756
+Biology,20,564,terms related to biological or medical processes and conditions,0.49962755601828235
+Cybersecurity,1,15331, terms related to cyber threats and cybersecurity issues,0.6048598718769952
+Cybersecurity,2,2060,explicit mentions of digital security concerns,0.5906278608669424
+Cybersecurity,3,15286,concepts and terms related to digital security and data integrity,0.5539148344390156
+Cybersecurity,4,364,references to security and related terms,0.4855104654899518
+Cybersecurity,5,4836, concepts related to secure web connections and cryptocurrency surplus,0.4804050864880187
+Cybersecurity,6,11015,terms related to security and the act of securing something,0.47856399093811475
+Cybersecurity,7,6309,references to technology and its applications across various sectors,0.47573569133377314
+Cybersecurity,8,2905,terms related to data security and encryption,0.46536345835979787
+Cybersecurity,9,11716,"technical terms and language related to coding and software functionality, specifically focusing on vulnerabilities",0.4619189158369068
+Cybersecurity,10,10931,references to national security and related governmental positions or actions,0.4469915063225045
+Cybersecurity,11,16160,discussions related to technology and computer systems,0.4452717986246576
+Cybersecurity,12,10543,keywords related to safety and security measures in various contexts,0.4438948398301219
+Cybersecurity,13,11520,references to information technology and IT-related concepts,0.4336577724431232
+Cybersecurity,14,11513, terms related to computing and data centers,0.43325146186675123
+Cybersecurity,15,12681,keywords related to safety and security,0.4329667673729586
+Cybersecurity,16,10415,"key components of data processing and communication in systems, particularly focusing on the details of data packet headers and their significance for routing and interpreting data",0.4258263789262885
+Cybersecurity,17,3943, references to computing systems and technologies,0.4211495305297752
+Cybersecurity,18,1803,references to Common Weakness Enumeration (CWE) identifiers,0.4197780142063351
+Cybersecurity,19,4686,references to technology and tech-related topics,0.4176145057250724
+Cybersecurity,20,11323,key concepts related to digital citizenship and its implications in various contexts,0.4150508886925405
+biology,1,12382,terms related to biological processes and structures in living organisms,0.5572042281974786
+biology,2,9722, concepts related to biological processes and systems,0.5430982873059231
+biology,3,343,terms related to biological processes and laboratory techniques,0.540849215207319
+biology,4,373, scientific terminology related to biological processes and cellular functions,0.5345535427256088
+biology,5,11,scientific terms and concepts related to biology,0.5284989878926238
+biology,6,15969,terms related to biotechnology and bio-related fields,0.5247219465144298
+biology,7,12117," concepts related to biological or cellular processes and conditions, particularly focusing on requirements, limitations, and energy dynamics",0.5209608474333906
+biology,8,5877,terms related to biological processes and molecular interactions,0.5204714860696753
+biology,9,968,"terms related to biological or medical processes and conditions, especially those involving cellular or molecular biology",0.5176186494726337
+biology,10,622,scientific terminology related to cellular processes and functions,0.5117028327809484
+biology,11,5231,specific terminology related to biological processes and gene expression,0.5113752003235794
+biology,12,10546,biological and genetic terms or sequences,0.5091428348738284
+biology,13,12037,medical terms and technical jargon related to genetic and biological research,0.5061243195046319
+biology,14,6150,"elements related to scientific terminology, particularly in genetics and molecular biology",0.504555295593364
+biology,15,14747,technical terminology and references related to biotechnology and medical research,0.5040504066455064
+biology,16,5704, scientific terms and jargon related to biological research,0.5039597819689777
+biology,17,8786,scientific terminology related to molecular biology and laboratory procedures,0.5028134853452009
+biology,18,10933,terms related to biological research and medical methodologies,0.5014245491079062
+biology,19,140,technical terms and concepts related to biology and bioengineering,0.49983189291587893
+biology,20,13527,"terms related to biological or medical research, particularly focusing on specific conditions and associated microorganisms",0.49678241371909293
