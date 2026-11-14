@@ -1,0 +1,19 @@
+--- a/dsg_utils/general_utils.py
++++ b/dsg_utils/general_utils.py
+@@ -8,7 +8,7 @@
+ import random
+ # import sae_lens.
+ 
+-from sae_lens.loading.pretrained_saes_directory import get_pretrained_saes_directory
++from sae_lens.toolkit.pretrained_saes_directory import get_pretrained_saes_directory
+ from sae_lens import SAE
+ 
+ 
+--- a/dsg_utils/sae_selection_utils.py
++++ b/dsg_utils/sae_selection_utils.py
+@@ -1,4 +1,4 @@
+-from sae_lens.loading.pretrained_saes_directory import get_pretrained_saes_directory
++from sae_lens.toolkit.pretrained_saes_directory import get_pretrained_saes_directory
+ from tqdm.auto import tqdm
+ import re
+ from tabulate import tabulate

@@ -1,0 +1,13 @@
+--- a/evals/unlearning/utils/feature_activation.py
++++ b/evals/unlearning/utils/feature_activation.py
+@@ -405,8 +405,8 @@
+         tuple: (forget_sparsity, retain_sparsity) as numpy arrays
+     """
+     print(sae.cfg)
+-    sae_metadata = sae.cfg.metadata
+-    hook_name = str(sae_metadata.hook_name)
++    # compat: sae-lens 5.x exposes cfg.hook_name, 6.x only cfg.metadata.hook_name
++    hook_name = str(getattr(sae.cfg, "hook_name", None) or sae.cfg.metadata.hook_name)
+     hook_index = int(hook_name.split('.')[1])
+     # Calculate sparsity for forget dataset
+     feature_sparsity_forget, act_fgt = get_feature_activation_sparsity(
