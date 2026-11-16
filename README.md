@@ -9,7 +9,7 @@ Reference paper: https://arxiv.org/abs/2504.08192
 - `zero_shot/`: evaluation, extension, analysis, plotting, and Slurm scripts.
 - `patches/`: compatibility patches for the separately supplied upstream implementation.
 - `jeroen_env/`: an alternative environment specification used for compatibility investigation; not the working environment for all experiments.
-- `team_materials/Yiqi_neuronpedia/`: feature-search responses and comparison data.
+- `Yiqi_neuronpedia/`: feature-search responses and comparison data.
 - `results/`: saved experiment outputs; see its README for a map.
 - `report/figures/`: figures used by plotting scripts. A final report is not included in this code-only preparation.
 
