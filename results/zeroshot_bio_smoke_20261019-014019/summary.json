@@ -1,0 +1,81 @@
+{
+ "plan": {
+  "run": "zeroshot_bio_smoke_20261019-014019",
+  "target": "bio",
+  "feature_query": "biology",
+  "feature_query_date": "2026-10-17",
+  "n_features": 20,
+  "feature_ids": [
+   12382,
+   9722,
+   343,
+   373,
+   11,
+   15969,
+   12117,
+   5877,
+   968,
+   622,
+   5231,
+   10546,
+   12037,
+   6150,
+   14747,
+   5704,
+   8786,
+   10933,
+   140,
+   13527
+  ],
+  "sae": "gemma-scope-2b-pt-res/layer_3/width_16k/average_l0_59",
+  "multiplier": 500,
+  "taus": [
+   0.6
+  ],
+  "datasets": [
+   "college_computer_science"
+  ],
+  "mcq_batch_size": 1,
+  "seed": 0,
+  "artifacts_folder": "/storage/homefs/sl24b051/sae_guard/results/artifacts/gemma-2-2b-it",
+  "run_dir": "/storage/homefs/sl24b051/sae_guard/results/zeroshot_bio_smoke_20261019-014019"
+ },
+ "env": {
+  "torch": "2.14.1+cu130",
+  "sae_lens": "5.11.0",
+  "transformer_lens": "2.18.0",
+  "gpu": "NVIDIA H100 NVL",
+  "argv": [
+   "zero_shot/run_zero_shot.py",
+   "--target",
+   "bio",
+   "--datasets",
+   "college_computer_science",
+   "--tag",
+   "smoke"
+  ]
+ },
+ "results": [
+  {
+   "tau": 0.6,
+   "rows": [
+    {
+     "dataset": "college_computer_science",
+     "n_selected_questions": 9,
+     "n_is_correct_entries": 9,
+     "baseline_mean_correct": 1.0,
+     "dsg_mean_correct": 1.0,
+     "change_pp": 0.0
+    }
+   ],
+   "aggregate": {
+    "mmlu_side_effect_accuracy_after_dsg": 1.0,
+    "mmlu_subjects_used": [
+     "college_computer_science"
+    ]
+   },
+   "elapsed_s": 183.446941614151
+  }
+ ],
+ "note": "Scores are measured on the question subset the baseline answers correctly under all 24 permutations (paper Sec. 4.1). Not the paper's numbers."
+}
